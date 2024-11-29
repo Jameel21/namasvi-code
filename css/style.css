@@ -163,7 +163,7 @@
         background-color: #fff;
     }
 
-    .our-people-saying-inner .buttons button.active {
+    .our-people-saying-inner .buttons button:active {
         box-shadow: 0px 4px 10px 0px #0F1B330D;
         background-color: #3AB54A;
     }
@@ -173,7 +173,7 @@
         font-size: 24px;
     }
 
-    .our-people-saying-inner .buttons button.active i {
+    .our-people-saying-inner .buttons button:active i {
         color: #ffffff;
         font-size: 24px;
     }
@@ -552,9 +552,9 @@
 
     .our-product-inner .content-counters span {
         font-family: 'Gilroy-Medium';
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 32.4px;
+        line-height: 26.4px;
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
@@ -768,14 +768,17 @@
         }
 
         .our-product-inner .content h1,
-        .our-product-inner .content-counters h1,
+        
         .our-services-inner .hero h1,
         .our-benefits-inner .content h1,
         .our-people-saying-inner .content .title {
             font-size: 36px;
             line-height: 44px;
         }
-
+        .our-product-inner .content-counters h1{
+            font-size: 30px;
+            list-style: 34px;
+        }
         .testimonial-slider .content,
         .left-fluid {
             padding-bottom: 30px;
@@ -831,14 +834,17 @@
         }
 
         .our-product-inner .content h1,
-        .our-product-inner .content-counters h1,
+        
         .our-services-inner .hero h1,
         .our-benefits-inner .content h1,
         .our-people-saying-inner .content .title {
             font-size: 40px;
             line-height: 48px;
         }
-
+        .our-product-inner .content-counters h1{
+            font-size: 26px;
+            line-height: 38px;
+        }
         .testimonial-slider .content,
         .left-fluid {
             padding-bottom: 30px;
