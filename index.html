@@ -8,10 +8,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="icofont/icofont.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
-    <header class="header">
+    <header id="home" class="header">
         <div class="wrapper">
             <div class="header-wrapper">
                 <nav class="navbar navbar-expand-lg bg-transparent">
@@ -27,20 +29,21 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav mx-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#about">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Services</a>
+                                    <a class="nav-link" href="#service">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Projects</a>
+                                    <a class="nav-link" href="#projects">Projects</a>
                                 </li>
+                                
                             </ul>
                             <div class="d-flex">
-                                <a href="#" class="btn btn-success our-product-btn">Contact Us</a>
+                                <a href="#contact" class="btn btn-success our-product-btn">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -56,16 +59,19 @@
             </div>
         </div>
     </header>
-    <section class="our-product">
+    <section class="our-product" id="about">
         <div class="wrapper">
             <div class="our-product-inner">
                 <div class="row align-items-end">
                     <div class="col-sm-12 col-md-6">
                         <div class="content">
                             <h6>Our Product</h6>
-                            <h1>Beyond Building: Designing Exceptional Living.</h1>
-                            <p>We go beyond traditional construction. We design living spaces that are not just built, but crafted to 
-                                enhance your lifestyle and create unforgettable experiences.</p>
+                            <h1>Hyderabad's Luxe Interiors</h1>
+                            <p>Navigating the landscape of interior designers in Hyderabad can feel like a challenge.
+                                 But your search ends here. We believe "Design is thinking made visual," and our team is dedicated 
+                                 to translating your vision into a tangible reality. We revolutionize interior design by understanding
+                                  that your home is a reflection of your unique personality. With creativity and passion, 
+                                we master the art of space utilization, ensuring your home resonates with your individuality. </p>
                             <a href="#" class="btn btn-success our-product-btn">Learn More</a>
                             <img src="images/product/product_small.png" class="img-fluid" alt="" />
                         </div>
@@ -99,7 +105,7 @@
             </div>
         </div>
     </section>
-    <section class="our-services">
+    <section id="service" class="our-services">
         <div class="wrapper">
             <div class="our-services-inner">
                 <div class="row">
@@ -152,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section class="our-benefits light-green-bg">
+    <section class="our-benefits light-green-bg" id="projects">
         <div class="wrapper">
             <div class="our-benefits-inner">
                 <div class="row align-items-center">
@@ -160,8 +166,11 @@
                         <div class="content">
                             <h6>Benefits</h6>
                             <h1>Unlocking the Benefits of Exceptional Spaces</h1>
-                            <p>Experience the transformative power of exceptional spaces. Discover how our 
-                                construction and interior design services unlock a better quality of life.
+                            <p>As a leading interior design firm in Hyderabad, we've transformed diverse spaces –
+                                 from apartments and villas to vibrant restaurants and productive offices. Our expertise encompasses 
+                                 a holistic approach, including landscape and interior design. We stay abreast of the latest trends and technologies,
+                                  ensuring your project reflects the highest standards of design excellence and creates a lasting impact.
+                                 Discover how our construction and interior design services unlock a better quality of life.
 
                             </p>
                         </div>
@@ -212,7 +221,6 @@
                                             <span>
                                                 <img src="images/icons/line.svg" />
                                             </span>
-                                            <span>Bay</span>
                                             <span>Luxury Interiors</span>
                                         </h6>
                                         <h1>Tailored Interiors</h1>
@@ -247,7 +255,7 @@
                             <div class="content">
                                 <h1 class="title">Discover What Makes Us Special</h1>
                                 <div class="avatar">
-                                    <img src="images/saying_slider/user_1.png" />
+                                     <img id="testimonial-user" src="images/saying_slider/user_1.png" alt="image" height="60px" width="60px" />
                                     <div>
                                         <h5 id="testimonial-author">Lisa and Tom </h5>
                                         <p id="testimonial-designation">Hyderabad</p>
@@ -255,14 +263,6 @@
                                 </div>
                                 <p id="testimonial-message" class="message">We envisioned a home that was simple, elegant, and high-quality, all within our budget. Namasvi perfectly understood our vision and transformed it into a reality, designing
                                      and building our dream home exactly as we imagined.</p>
-                                <!-- <div class="buttons">
-                                    <button id="prev-btn">
-                                        <i class="icofont-arrow-left"></i>
-                                    </button>
-                                    <button id="next-btn" class="active">
-                                        <i class="icofont-arrow-right"></i>
-                                    </button>
-                                </div> -->
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6">
@@ -286,7 +286,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="wrapper">
             <div class="footer-inner text-center">
                 <div class="row">
@@ -296,16 +296,19 @@
                     <div class="col-sm-12">
                         <ul class="pages">
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#home">Home</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#">Service</a>
+                                <a href="#service">Service</a>
                             </li>
                             <li>
-                                <a href="#">Projects</a>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -313,6 +316,30 @@
                         <p>Ingenious design meets sustainable living. Namasvi crafts unique homes 
                             that reflect your personality, making everyday life more enjoyable. </p>
                     </div>
+
+               <div class="footer-details">
+
+                    <div class="footer-iconflex">
+                        <i class="fa-solid fa-location-dot custom-icon"></i>
+                    <p>7-62/31/A/1 , 1st FLOOR ,PL NO - 31, BRUVANDAN<br/>
+                    COLONY,NARSINGI ,GANDIPET, HYDERABAD.</p>
+                     </div>
+            
+            
+                        <div class="footer-iconflex">
+                        <i class="fa-solid fa-phone custom-icon"></i>
+                         <p>+91 8712 010 801 \ 8712 010 802
+                         </p>
+                         </div>
+
+
+                    <div class="footer-iconflex">
+                    <i class="fa-solid fa-envelope custom-icon"></i>
+                    <p>interiors@namasviprojects.com
+                    </p>
+                   </div>  
+             </div>
+               
                 </div>
             </div>
         </div>
@@ -320,10 +347,10 @@
             <div class="fancy-left">
             </div>
             <div class="social-links">
-                <span class="facebook"><i class="icofont-facebook"></i></span>
-                <span class="x"><i class="icofont-x"></i></span>
-                <span class="linkedin"><i class="icofont-linkedin"></i></span>
-                <span class="instagram"><i class="icofont-instagram"></i></span>
+                <a href="" class="footer-a"><span class="facebook"><i class="icofont-facebook"></i></span></a>
+                <a href="" class="footer-a"><span class="x"><i class="icofont-x"></i></span></a>
+                <a href="https://www.linkedin.com/company/namasvi-projects/about/?viewAsMember=true" class="footer-a"><span class="linkedin"><i class="icofont-linkedin"></i></span></a>
+                <a href="" class="footer-a"><span class="instagram"><i class="icofont-instagram"></i></span></a>
             </div>
             <div class="fancy-right">
             </div>
@@ -336,19 +363,22 @@
             text: "We envisioned a home that was simple, elegant, and high-quality, all within our budget. Namasvi perfectly understood our vision and transformed it into a reality, designing and building our dream home exactly as we imagined.",
             author: "Lisa and Tom ",
             image: "images/saying_slider/slider_1.png",
-            designation: "Hyderabad"
+            designation: "Hyderabad",
+            users:"images/saying_slider/user_1.png"
         },
         {
             text: "Selecting the right firm for our project was a crucial decision, as it significantly impacted the entire construction process. We are thrilled with our decision and extend our heartfelt thanks to the entire team for their invaluable contributions throughout this journey. Your professional touch is evident in every aspect of our home – the exterior, interior, and landscape. Our home is now a truly personal space filled with positive emotions.”",
             author: "Anoop and Sunitha",
             image: "images/saying_slider/slider_2.png",
-            designation: "Hyderabad"
+            designation: "Hyderabad",
+             users:"images/saying_slider/user_2.png"
         },
         {
             text: "“We are incredibly grateful to the Namasvi team for surpassing our expectations in bringing our dream home to life. We deeply appreciate the dedication and effort invested in visualizing and creating such an outstanding home. My family and I are overjoyed and extend our sincere gratitude to the entire Namasvi team for successfully completing this project. We can truly feel the positive energy emanating from every corner of the house.”",
             author: "Ajmal and Alia",
             image: "images/saying_slider/slider_3.png",
-            designation: "Hyderabad"
+            designation: "Hyderabad",
+            users:"images/saying_slider/user_3.png"
         }
         ];
 
@@ -361,6 +391,7 @@
                 $('#testimonial-author').text(`${testimonials[index].author}`);
                 $('#testimonial-designation').text(`${testimonials[index].designation}`);
                 $('#testimonial-image').attr('src', testimonials[index].image).css('opacity', 0).animate({ opacity: 1 }, 500);
+                $('#testimonial-user').attr('src',testimonials[index].users)
             }
 
             $('#next-btn').click(() => {
