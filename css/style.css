@@ -441,6 +441,7 @@ ul {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #3FB549;
+    overflow-x: hidden;
 }
 
 .our-services-inner .hero h1 {
@@ -501,6 +502,7 @@ ul {
     text-decoration-skip-ink: none;
     color: #3FB549;
     margin-bottom: 15px;
+    overflow-x: hidden;
 }
 
 .our-product-inner .content h1 {
@@ -576,6 +578,7 @@ ul {
     font-family: 'EkMukta-Regular';
     font-size: 15px;
     font-weight: 400;
+    border: none;
 }
 
 /*Our Product*/
@@ -589,6 +592,7 @@ ul {
     transition: background-size 5s ease-out;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .header .wrapper.zoom-out {
@@ -643,6 +647,7 @@ ul {
 
 .footer {
     background: #3FB549;
+    overflow-x: hidden;
 }
 
 .footer .footer-inner {
