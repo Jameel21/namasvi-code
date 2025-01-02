@@ -55,6 +55,7 @@ html {
 body {
     font-family: 'Gilroy-Regular', sans-serif;
     overflow: auto;
+    overflow-x: hidden;
 }
 
 a {
